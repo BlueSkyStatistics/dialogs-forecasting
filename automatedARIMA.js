@@ -207,7 +207,7 @@ BSkyFormat(BSkyRes)
             oriVsFitted: { el: new checkbox(config, { label: localization.en.oriVsFitted, no: "oriVsFitted", newline: true, extraction: "Boolean" }) },
             plotResiduals: { el: new checkbox(config, { label: localization.en.plotResiduals, no: "plotResiduals", newline: true, extraction: "Boolean" }) },
             label3: { el: new labelVar(config, { label: localization.en.label3, h: 5, style: "mt-3" }) },
-            predict: { el: new checkbox(config, { label: localization.en.predict, no: "predict", extraction: "boolean", dependant_objects: ['periodToPredict', 'savePredictedVals', 'plotPredicted', 'correlogram'] }) },
+            predict: { el: new checkbox(config, { label: localization.en.predict, no: "predict", extraction: "boolean", required:true,dependant_objects: ['periodToPredict', 'savePredictedVals', 'plotPredicted', 'correlogram'] }) },
             periodToPredict: {
                 el: new inputSpinner(config, {
                     no: 'periodToPredict',
@@ -244,7 +244,7 @@ BSkyFormat(BSkyRes)
                 })
             },
             plotPredicted: { el: new checkbox(config, { label: localization.en.plotPredicted, no: "plotPredicted", extraction: "Boolean", newline: true }) },
-            correlogram: { el: new checkbox(config, { label: localization.en.correlogram, no: "correlogram", newline: true, extraction: "boolean", dependant_objects: ['maxlag', 'Boxtest'] }) },
+            correlogram: { el: new checkbox(config, { label: localization.en.correlogram, no: "correlogram", newline: true, required:true,extraction: "boolean", dependant_objects: ['maxlag', 'Boxtest'] }) },
             maxlag: {
                 el: new inputSpinner(config, {
                     no: 'maxlag',
