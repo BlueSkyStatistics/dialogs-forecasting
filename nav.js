@@ -1,5 +1,6 @@
-const nav = {
-    "name": "Forecasting",
+let t = getT('menutoolbar')
+const nav = () => ({
+    "name": t('forecasting_top_level_title'),// {ns: 'menutoolbar'}),
     "tab": "forecasting",
     "buttons": [
         "./automatedARIMA",
@@ -9,7 +10,10 @@ const nav = {
         "./plotTimeSeriesSeparateCombined",
         "./plotTimeSeriesCorrelations"
     ]
-}
+})
 
-module.exports.nav = nav
+module.exports = {
+    nav: nav(),
+    render: () => nav()
+}
 
