@@ -147,7 +147,7 @@ BSkyFormat(BSkyRes)
         var holtNonSeasonalOptions = {
             el: new optionsVar(config, {
                 no: "plots",
-                name: "Advanced",
+                name: holtWintersNonSeasonal.t('advanced_lbl'),
                 content: [
                     objects.label2.el,
                     objects.saveFitted.el,

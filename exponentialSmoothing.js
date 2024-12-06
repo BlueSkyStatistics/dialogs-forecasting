@@ -146,7 +146,7 @@ BSkyFormat(BSkyRes)
         var expoOptions = {
             el: new optionsVar(config, {
                 no: "plots",
-                name: "Advanced",
+                name: exponentialSmoothing.t('advanced_lbl'),
                 content: [
                     objects.label2.el,
                     objects.saveFitted.el,

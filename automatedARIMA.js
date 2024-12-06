@@ -160,7 +160,7 @@ BSkyFormat(BSkyRes)
         var arimaOptions = {
             el: new optionsVar(config, {
                 no: "plots",
-                name: "Advanced",
+                name: automatedARIMA.t('advanced_lbl'),
                 content: [
                     objects.label2.el,
                     objects.saveFitted.el,
