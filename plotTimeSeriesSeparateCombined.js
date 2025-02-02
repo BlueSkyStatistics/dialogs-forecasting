@@ -86,7 +86,7 @@ BSkyPlotTimeSeries(vars =c({{selected.destination | safe}}), start =c({{selected
         
         this.help = {
             title: plotTimeSeriesSeparateCombined.t('help.title'),
-            r_help: "help(data,package='utils')",
+            r_help: plotTimeSeriesSeparateCombined.t('help.r_help'),  //r_help: "help(data,package='utils')",
             body: plotTimeSeriesSeparateCombined.t('help.body')
         }
 ;

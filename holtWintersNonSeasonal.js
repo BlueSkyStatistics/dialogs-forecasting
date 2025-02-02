@@ -181,7 +181,7 @@ BSkyFormat(BSkyRes)
         
         this.help = {
             title: holtWintersNonSeasonal.t('help.title'),
-            r_help: "help(data,package='utils')",
+            r_help: holtWintersNonSeasonal.t('help.r_help'),  //r_help: "help(data,package='utils')",
             body: holtWintersNonSeasonal.t('help.body')
         }
 ;

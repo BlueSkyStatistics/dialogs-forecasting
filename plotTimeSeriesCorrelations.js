@@ -87,7 +87,7 @@ BSkyPlotSeriesWithCorrelations(vars =c({{selected.destination | safe}}), start =
         
         this.help = {
             title: plotTimeSeriesCorrelations.t('help.title'),
-            r_help: "help(data,package='utils')",
+            r_help: plotTimeSeriesCorrelations.t('help.r_help'),  //r_help: "help(data,package='utils')",
             body: plotTimeSeriesCorrelations.t('help.body')
         }
 ;

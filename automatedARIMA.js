@@ -194,7 +194,7 @@ BSkyFormat(BSkyRes)
         
         this.help = {
             title: automatedARIMA.t('help.title'),
-            r_help: "help(data,package='utils')",
+            r_help: automatedARIMA.t('help.r_help'),  //r_help: "help(data,package='utils')",
             body: automatedARIMA.t('help.body')
         }
 ;
