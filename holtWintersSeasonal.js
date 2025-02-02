@@ -28,6 +28,7 @@ var localization = {
         correlogram: "Generate correlogram",
         maxlag: "Enter max lag",
         Boxtest: " Ljung-Box test ",
+		advanced_lbl : "Advanced",
         help: {
             title: "Holt Winters, seasonal",
             r_help: "help(HoltWinters , package=stats)",
@@ -254,7 +255,7 @@ BSkyFormat(BSkyRes)
         var holtSeasonalOptions = {
             el: new optionsVar(config, {
                 no: "plots",
-                name: "Advanced",
+                name: localization.en.advanced_lbl,
                 content: [
                     objects.label2.el,
                     objects.saveFitted.el,
