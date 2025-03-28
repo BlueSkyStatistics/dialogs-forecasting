@@ -1,11 +1,11 @@
 {
     "name": "@BlueSkyStatistics/dialogs/forecasting",
-    "productName": "BlueSky Statistics Forecasting dialogs",
+    "productName": "BioStat Prime Forecasting dialogs",
     "description": "Forecasting dialogs",
     "keywords": [],
     "main": "nav.js",
     "version": "1.0.5",
-    "author": "BlueSky Statistics",
+    "author": "BioStat Prime",
     "scripts": {},
     "dependencies": {
         "jquery": "3.5.1",
